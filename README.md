@@ -1,1 +1,2 @@
 # paradise-castle
+npm install
