@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/jmromeo/paradise-castle#readme",
   "dependencies": {
-    "i2c": "^0.2.3"
   }
 }
