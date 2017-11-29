@@ -15,4 +15,6 @@ To run the example Omron D6T application, perform the following actions:
   </ul>
 </ul>
 
-
+Here are a few screenshots of the app in action!
+![ScreenShot](documentation/images/noperson.png)
+![ScreenShot](documentation/images/person.png)
