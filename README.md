@@ -15,6 +15,8 @@ To run the example Omron D6T application, perform the following actions:
   </ul>
 </ul>
 
-Here are a few screenshots of the app in action!
+Here is a screenshot when I'm far away from the sensor.
 ![ScreenShot](documentation/images/noperson.png)
+
+Here is a screenshot when I'm standing near the sensor.
 ![ScreenShot](documentation/images/person.png)
