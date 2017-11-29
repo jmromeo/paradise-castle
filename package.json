@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/jmromeo/paradise-castle#readme",
   "dependencies": {
+    "d6t": "0.0.1"
   }
 }
