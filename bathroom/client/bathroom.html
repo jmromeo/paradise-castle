@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Paradise Castle</title>
+    <meta charset="UTF-8">
+
+    <!-- socket communication -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- javascript used for generating the line chart -->
+    <script src="bathroom.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- glyphicons -->
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css"></script>
+    <link rel="stylesheet" type="text/css" href="css/foundation-icons/foundation-icons.css"></script>
+
+    <!-- my styling -->
+    <link rel="stylesheet" type="text/css" href="css/bathroom.css">
+
+
+    <style>
+        canvas{
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Line Chart Control Buttons -->
+    <div class="container thermal-image">
+
+        <!-- Zoom and Pan Buttons -->
+        <div class="row pixel-row">
+            <div class="col-sm-3 pixel" id="px0"></div>
+            <div class="col-sm-3 pixel" id="px1"></div>
+            <div class="col-sm-3 pixel" id="px2"></div>
+            <div class="col-sm-3 pixel" id="px3"></div>
+        </div>
+
+        <!-- Zoom and Pan Buttons -->
+        <div class="row pixel-row">
+            <div class="col-sm-3 pixel" id="px4"></div>
+            <div class="col-sm-3 pixel" id="px5"></div>
+            <div class="col-sm-3 pixel" id="px6"></div>
+            <div class="col-sm-3 pixel" id="px7"></div>
+        </div>
+
+        <!-- Zoom and Pan Buttons -->
+        <div class="row pixel-row">
+            <div class="col-sm-3 pixel" id="px8"></div>
+            <div class="col-sm-3 pixel" id="px9"></div>
+            <div class="col-sm-3 pixel" id="px10"></div>
+            <div class="col-sm-3 pixel" id="px11"></div>
+        </div>
+
+        <!-- Zoom and Pan Buttons -->
+        <div class="row pixel-row">
+            <div class="col-sm-3 pixel" id="px12"></div>
+            <div class="col-sm-3 pixel" id="px13"></div>
+            <div class="col-sm-3 pixel" id="px14"></div>
+            <div class="col-sm-3 pixel" id="px15"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.jumbotron {
+    text-align: center;
+}
+
+.thermal-image {
+    padding: 15px;
+}
+
+.pixel-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pixel {
+  background-color: rgb(0, 0, 255);
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+  position: relative;
+  flex-basis: 15%;
+}
+
+.pixel:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+
