@@ -14,12 +14,15 @@ $ cd bathroom
 $ node app.js
 ```
 
-2. Once the app is running, there are 2 options for connecting to the app:
+2. Once the app is running, there are 2 options for connecting to the app (replace chromium-browser with your favorite browswer):
 
-<ul>
-  <li> If running server on same device you would like to connect from, navigate to http://127.0.0.1:3000 </li>
-  <li> If connecting to server from different device, replace 127.0.0.1 with the ip address of server (found using ifconfig) </li>
-</ul>
+```
+# if running "node app.js" command from same device as connecting to browser
+$ chromium-browser http://127.0.0.1:3000 &
+
+# if running "node app.js" command from device and connecting using a browswer from a different device
+$ chromium-browser http://<ip_of_device>:3000
+```
 
 Here is a screenshot when I'm far away from the sensor.
 ![ScreenShot](documentation/images/noperson.png)
