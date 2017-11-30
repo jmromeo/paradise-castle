@@ -3,13 +3,17 @@ var socket = io(); ///< Client socket.
 function addData(data)
 {
     var pixel;
+    var pixnum;
     var maxtmp = 31;
     var mintmp = 19;
 
-    for (var i = 0; i < data.length; i++)
+    console.log(data);
+
+    for (var i = 1; i < data.length-1; i++)
     {
-        id    = "px" + i.toString(10);
-        pixel = document.getElementById(id);
+        pixnum  = i - 1;
+        id      = "px" + pixnum.toString(10);
+        pixel   = document.getElementById(id);
 
         var r = parseInt(((data[i] - mintmp) / (maxtmp - mintmp)) * 255);
         var g = 0;
@@ -17,7 +21,6 @@ function addData(data)
 
         var rgb = "rgb(" + r + "," + g + "," + b + ")";
         console.log("temp[%d]: %d, rgb: %s", i, data[i], rgb);
-
 
         pixel.style.backgroundColor = rgb;
     }
